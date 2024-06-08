@@ -16,3 +16,4 @@ Step-3->
              
              ```
 
+->> Use command { git commit -m "add massage" }to commit and add massage to the file which will have to be commited.
