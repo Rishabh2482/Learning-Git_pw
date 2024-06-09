@@ -43,4 +43,4 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 (git stash clear) :-> Using this command we can clear the all the list of stash changed
 
 (git stash --include-untrack) : This command is used to add changes of untracked files in stash.
-(git stash --include-untrack) : This command is used to add changes of untracked files in stash.
+
