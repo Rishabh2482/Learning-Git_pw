@@ -29,4 +29,10 @@ Step-3->  Use command { git commit -m "add massage" }to commit and add massage t
 -->> From the local repository (distributed) we can shift it to (central) repository which can be online like github, gitlab, BitBucket.
 
 -->> What is diffrence between git and github?
+
+-->> Create a remote github repo attach that repo with the local repo
+
+-->> After doing commit all the changes done wiil be saved into the local repository not in the online repo. to make that commit to available in online repository of github we have to use command "git push origin main."
 ```
+Stash :->>  This allow us to save changes of "working directory or staged area" without commiting them. These changes are saved independently from the other files which are commited.
+
