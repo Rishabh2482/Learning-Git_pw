@@ -39,3 +39,5 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 (git stash push -m "Write your message") :->> Using this command we can stash the changes along with a proper message.
 
 ->> The changes which are added into the stash are added in stack formate that LIFO.
+
+(git stash clear) :-> Using this command we can clear the all the list of stash changed
