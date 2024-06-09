@@ -36,3 +36,6 @@ Step-3->  Use command { git commit -m "add massage" }to commit and add massage t
 ```
 Stash :->>  This allow us to save changes of "working directory or staged area" without commiting them. These changes are saved independently from the other files which are commited.
 
+(git stash push -m "Write your message") :->> Using this command we can stash the changes along with a proper message.
+
+->> The changes which are added into the stash are added in stack formate that LIFO.
