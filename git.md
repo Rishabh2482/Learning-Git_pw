@@ -41,3 +41,5 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 ->> The changes which are added into the stash are added in stack formate that LIFO.
 
 (git stash clear) :-> Using this command we can clear the all the list of stash changed
+
+(git stash --include-untrack) : This command is used to add changes of untracked files in stash.
