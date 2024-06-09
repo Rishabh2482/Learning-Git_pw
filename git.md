@@ -48,3 +48,11 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 
 (git stash --include-untrack) : This command is used to add changes of untracked files in stash.
 
+(git stash apply) :- THis command is used to apply the last change you have stashed, but it does not remove the last stash from stash list.
+
+(git stash pop) :- THis command is used to apply the last change you have stashed ,and also it removes the last stash from stash list.
+
+(git stash drop @stash{x}) :- This remove the specific stach (i.e. stash number{x}) from the stash list.
+
+(git stash apply stash{x}) :- This command apply the specific stash number {x} from the stash list.
+
