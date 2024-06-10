@@ -56,3 +56,4 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 
 (git stash apply stash{x}) :- This command apply the specific stash number {x} from the stash list.
 
+# This line is writeen in the main branch not on the master Branch.
