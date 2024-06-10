@@ -34,6 +34,7 @@ Step-3->  Use command { git commit -m "add massage" }to commit and add massage t
 
 -->> After doing commit all the changes done wiil be saved into the local repository not in the online repo. to make that commit to available in online repository of github we have to use command "git push origin main."
 ```
+# Git Stash
 Stash :->>  This allow us to save changes of "working directory or staged area" without commiting them. These changes are saved independently from the other files which are commited.
 
 (git stash)  -->> This Command will stash the "changes of staging area and tracked files of working directory and not of untracked files of working directory".
@@ -56,3 +57,5 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 
 (git stash apply stash{x}) :- This command apply the specific stash number {x} from the stash list.
 
+# Git Branch
+-->> 
