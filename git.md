@@ -58,4 +58,11 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 (git stash apply stash{x}) :- This command apply the specific stash number {x} from the stash list.
 
 # Git Branch
--->> This is a Command.
+-->> This Code is on master branch.
+
+(git branch):- This command is used to check all the branches and the current branch.
+
+(git checkout -b <branch_name>):- THis command create a new branch and also shift to that created branch.
+
+(git checkout <branch_name>):- THis command will only shift the current branch to given <branch_name>, but it will not create a new branch.
+
