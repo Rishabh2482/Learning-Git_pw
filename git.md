@@ -68,4 +68,9 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 
 # This line is writeen in the main branch not on the master Branch.
 1. Now I will pull this line into the master branch.
+
+(git revert <HEAD>) :- This command will inverse(opposite) the commit done, and commit that change directly .
+
+(git revert -n <HEAD>) :- This command will inverse the commit done, but it does not commit the changes done directly, that changes will be uncommited.
+
    
