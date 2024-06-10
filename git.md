@@ -66,3 +66,6 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 
 (git checkout <branch_name>):- THis command will only shift the current branch to given <branch_name>, but it will not create a new branch.
 
+# This line is writeen in the main branch not on the master Branch.
+1. Now I will pull this line into the master branch.
+   
