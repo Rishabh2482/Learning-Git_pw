@@ -69,8 +69,14 @@ Stash :->>  This allow us to save changes of "working directory or staged area" 
 # This line is writeen in the main branch not on the master Branch.
 1. Now I will pull this line into the master branch.
 
+# Git Revert
 (git revert <HEAD>) :- This command will inverse(opposite) the commit done, and commit that change directly .
 
 (git revert -n <HEAD>) :- This command will inverse the commit done, but it does not commit the changes done directly, that changes will be uncommited.
+
+# Git Reset
+(git reset --soft <commit_Id>): This will change the location of branch pointer to the location of commit, along with location of HEAD pointer where we are reseting the location of HEAD pointer, and it will not change the Working directory and Staged area content. (This is soft mode)
+
+(git reset --hard <commit_Id>): This will change the location of branch pointer to the location of commit, along with location of HEAD pointer where we are reseting the location of HEAD pointer, but it will not retains the changes of Working directory and Staged area content and after reseting to that commit we will loose all the data which would be present in Working directory and Staging area unlike the soft mode. (This is hard mode.)
 
    
